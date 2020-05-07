@@ -1,0 +1,293 @@
+﻿
+<table class="current_measures_table current_measures_table_0">
+  <thead>
+    <th colspan="6"><b>Station</b> Basel Klingelbergstrasse<br>
+	During the last hour: [JSDATE] MEZ</th>
+  </thead>
+  
+  <tr>
+    <td>Variable</td>
+    <td>Currently</td>
+    <td>Trend [UNITh<sup>-1</sup>]</td>
+    <td>Minimum</td>
+    <td>Maximum</td>
+    <td>Unit</td>
+  </tr>
+  <tr>
+    <td>Air temperature</td>
+    <td>[BKLIDTA9,ACT]</td>
+    <td>[BKLIDTA9,TEN,0.041666]</td>
+    <td>[BKLIDTA9,MIN,1]</td>
+    <td>[BKLIDTA9,MAX,1]</td>
+    <td>[UNIT&deg;C]</td>
+  </tr>
+  <tr>
+    <td>Rhine temperature</td>
+    <td>[B2091WT0,ACT]</td>
+    <td>[B2091WT0,TEN,0.041666]</td>
+    <td>[B2091WT0,MIN,1]</td>
+    <td>[B2091WT0,MAX,1]</td>
+    <td>[UNIT&deg;C]</td>
+  </tr>
+  <tr>
+    <td>Air humidity (relative)</td>
+    <td>[BKLIRHA9,ACT]</td>
+    <td>[BKLIRHA9,TEN,0.041666]</td>
+    <td>[BKLIRHA9,MIN,1]</td>
+    <td>[BKLIRHA9,MAX,1]</td>
+    <td>[%]</td>
+  </tr>
+  <tr>
+    <td>Precipitation</td>
+    <td>[BKLIPCT2,SUM,0.041666]</td>
+    <td>***</td>
+    <td>[BKLIPCT2,SUM,1] ** </td>
+    <td>[BKLIPCT2,MAX,0.041666]</td>
+    <td>[UNITmm/h] </td>
+  </tr>
+  <tr>
+    <td>Solar irradiance</td>
+    <td>[BKLISDA1,ACT,1,CLIP:0:1200]</td>
+    <td>[BKLISDA1,TEN,0.041666]</td>
+    <td>[BKLISDA1,MIN,1,CLIP:0:1200]</td>
+    <td>[BKLISDA1,MAX,1,CLIP:0:1200]</td>
+    <td>[UNITW m<sup>-2</sup>]</td>
+  </tr>
+  <tr>
+    <td>Radiation balance</td>
+    <td>[BKLINRA1,ACT]</td>
+    <td>[BKLINRA1,TEN,0.041666]</td>
+    <td>[BKLINRA1,MIN,1]</td>
+    <td>[BKLINRA1,MAX,1]</td>
+    <td>[UNITW m<sup>-2</sup>]</td>
+  </tr>
+  <tr>
+    <td>Wind</td>
+    <td>[BKLIWVA6,ACT]</td>
+    <td>[BKLIWVA6,TEN,0.041666]</td>
+    <td>[BKLIWVA6,AVG,1] **</td>
+    <td>[BKLIWVX6,MAX,1] </td>
+    <td>[UNITm s<sup>-1</sup>] </td>
+  </tr>
+  <tr>
+    <td>Wind direction</td>
+    <td>[BKLIWDA1,ACT,1,HR]</td>
+    <td>***</td>
+    <td>***</td>
+    <td>***</td>
+    <td>[UNIT&deg;]</td>
+  </tr>
+  <tr>
+    <td>Air pressure</td>
+    <td>[BKLIPSA1,ACT]</td>
+    <td>[BKLIPSA1,TEN,0.041666] </td>
+    <td>[BKLIPSA1,MIN,1] </td>
+    <td>[BKLIPSA1,MAX,1] </td>
+    <td>[UNIThPa] </td>
+  </tr>
+  <tr>
+	<td colspan="6"><sup>* Currently no measurements available</sup><br>
+	<sup>** Reported here is the 24-h sum for precipitation in [mm], respectively the 24-h mean for the wind direction</sup><br>
+	<sup>*** These measurements are not sensible information and thus are omitted</sup>
+	</td>
+  </tr>  
+</table>
+
+<table class="current_measures_table current_measures_table_1">
+  <th colspan="7">
+  Today in the greater area
+  </th>
+  <tr>
+    <td rowspan="3"><b>Station</b></td>
+    <td rowspan="3"><b>Time</b></td>
+    <td colspan="5"><b>Measurement values</b></td>
+  </tr>
+  <tr>
+    <td>Temperature</td>
+    <td>Air humidity</td>
+    <td>Precipitation</td>
+    <td>Wind</td>
+    <td>Wind direction</td>
+  </tr>
+  <tr>
+    <td>[UNIT&deg;C]</td>
+    <td>[%]</td>
+    <td>[UNITmm/h]</td>
+    <td>[UNITm s<sup>-1</sup>]</td>
+    <td>[UNIT&deg;]</td>
+  </tr>
+  <tr>
+    <td>Basel Klingelbergstr.</td>
+    <td rowspan="3">Aktuell (s. oben)</td>
+    <td>[BKLIDTA9,ACT]</td>
+    <td>[BKLIRHA9,ACT]</td>
+    <td>[BKLIPCT2,SUM,0.041666]</td>
+    <td>[BKLIWVA6,ACT] </td>
+    <td>[BKLIWDA1,ACT,1,HR]</td>
+  </tr>
+  <tr>
+    <td>Basel Leonhard</td>
+    <td>[BLEODTA1,ACT]</td>
+    <td>[BLEORHA1,ACT]</td>
+    <td>[BLEOPCT1,SUM,0.041666]</td>
+    <td>[BLEOWVA1,ACT] </td>
+    <td>[BLEOWDA1,ACT,1,HR]</td>
+  </tr>
+  <tr>
+    <td>Basel Lange Erlen</td>
+    <td>[BLERDTA1,ACT]</td>
+    <td>[BLERRHA1,ACT]</td>
+    <td>[BLERPCT2,SUM,0.041666]</td>
+    <td>[BLERWVA1,ACT] </td>
+    <td> [BLERWDA1,ACT,1,HR]</td>
+  </tr>
+
+  <tr>
+    <td>Basel Klingelbergstr</td>
+    <td rowspan="3"> [TIME, V06] MEZ</td>
+    <td>[BKLIDTA9,V06]</td>
+    <td>[BKLIRHA9,V06]</td>
+    <td>[BKLIPCT2,S06]</td>
+    <td>[BKLIWVA6,V06] </td>
+    <td> [BKLIWDA1,V06,1,HR]</td>
+  </tr>
+  <tr>
+    <td>Basel Leonhard</td>
+    <td>[BLEODTA1,V06]</td>
+    <td>[BLEORHA1,V06]</td>
+    <td>[BLEOPCT1,S06]</td>
+    <td>[BLEOWVA1,V06] </td>
+    <td>[BLEOWDA1,V06,1,HR]</td>
+  </tr>
+  <tr>
+    <td>Basel Lange Erlen</td>
+    <td>[BLERDTA1,V06]</td>
+    <td>[BLERRHA1,V06]</td>
+    <td>[BLERPCT2,S06]</td>
+    <td>[BLERWVA7,V06] </td>
+    <td>[BLERWDA2,V06,1,HR]</td>
+  </tr>
+</table>
+<br>
+<div class="overview_svg_div">
+	<a href="https://mcr.unibas.ch/dolueg2/projects/basel/plots/0day/basel_temp_overview.svg" target="_blank" title="Click to open in a new tab">
+		<img src="https://mcr.unibas.ch/dolueg2/projects/basel/plots/0day/basel_temp_overview.svg" class="overview_svg" alt ="" />
+	</a>
+	<h3>Temperature of the last 24 hours in the urban station Basel-Klingelbergstrasse and the rural station Basel-Lange Erlen. 
+	Click to save, drag to new/other tab to enable zooming capabilities</h3>
+</div>
+<br>
+<table class="current_measures_table current_measures_table_2">
+  <th colspan="8">
+  The weather during the last seven days in the area of Basel
+  </th>
+  <tr>
+    <td rowspan="4"><b>Station</b></td>
+	<td colspan="7"><b>Measurement values</b></td>
+  </tr>
+  <tr>
+    <td colspan="3">Temperature</td>
+    <td>Precipitation</td>
+    <td>Hours of sunshine</td>
+    <td>Wind</td>
+    <td>Gusts</td>
+  </tr>
+  <tr>
+    
+	<td>Mean</td>
+    <td>Minimum</td>
+    <td>Maximum</td>
+    <td></td>
+    <td></td>
+    <td></td>
+	<td></td>
+  </tr>
+  <tr>
+	
+    <td colspan="3">[UNIT&deg;C]</td>
+    <td>[mm] </td>
+    <td>[h] </td>
+    <td>[UNITm s<sup>-1</sup>] </td>
+    <td>[UNITm s<sup>-1</sup>] </td>
+  </tr>
+  <tr>
+    <td>Basel Klingelbergstr</td>
+    <td>[BKLIDTA9,AVG,7] </td>
+    <td>[BKLIDTA9,MIN,7]</td>
+    <td>[BKLIDTA9,MAX,7] </td>
+    <td>[BKLIPCT2,SUM,7] </td>
+    <td>[BKLISDA1,SUN,7] </td>
+    <td>[BKLIWVA6,AVG,7] </td>
+    <td>[BKLIWVX6,MAX,7]</td>
+  </tr>
+  <tr>
+    <td>Basel Leonhard</td>
+    <td>[BLEODTA1,AVG,7] </td>
+    <td>[BLEODTA1,MIN,7] </td>
+    <td>[BLEODTA1,MAX,7] </td>
+    <td>[BLEOPCT1,SUM,7] </td>
+    <td>[BLEOSDA1,SUN,7] </td>
+    <td>[BLEOWVA1,AVG,7] </td>
+    <td>[BLEOWVX1,MAX,7] </td>
+  </tr>
+  <tr>
+    <td>Basel Lange Erlen</td>
+    <td>[BLERDTA1,AVG,7] </td>
+    <td>[BLERDTA1,MIN,7] </td>
+    <td>[BLERDTA1,MAX,7] </td>
+    <td>[BLERPCT2,SUM,7] </td>
+    <td>[BLERSDA1,SUN,7] </td>
+    <td>[BLERWVA7,AVG,7] </td>
+    <td>[BLERWVX7,MAX,7] </td>
+  </tr>
+</div>
+</table>
+
+<table class="current_measures_table current_measures_table_3">
+  <th colspan="4">
+  The weather during [FULLMONTH,AVG,M1] [YEAR,AVG,M1] in the surroundings of Basel
+  </th>
+  <tr>
+    <td rowspan="3"><b>Station</b></td>
+    <td colspan="5"><b>Measurement values</b></td>
+  </tr>
+  <tr>
+	
+    <td>Mean temp.</td>
+    <td>Precipitation</td>
+    <td>Hours of sunshine</td>
+  </tr>
+  <tr>
+	
+    <td>[UNIT&deg;] </td>
+    <td>[mm]</td>
+    <td>[h]</td>
+  </tr>
+  <tr>
+    <td>Basel Klingelbergstr.</td>
+    <td>[BKLIDTA9,AVG,M1]</td>
+    <td>[BKLIPCT2,SUM,M1]
+    <td>[BKLISDA1,SUN,M1]</td>
+  </tr>
+  <tr>
+    <td>Basel Leonhard</td>
+    <td>[BLEODTA1,AVG,M1]</td>
+    <td>[BLEOPCT1,SUM,M1]</td>
+    <td>[BLEOSDA1,SUN,M1]</td>
+  </tr>
+  <tr>
+    <td>Basel Lange Erlen</td>
+    <td>[BLERDTA1,AVG,M1]</td>
+    <td>[BLERPCT2,SUM,M1]</td>
+    <td>[BLERSDA1,SUN,M1]</td>
+  </tr>
+</table>
+<br>
+<div class="overview_svg_div">
+	<a href="https://mcr.unibas.ch/dolueg2/projects/basel/plots/3year/basel_0_a_atemp_diff_iso_3year.svg" target="_blank" title="Click to open in a new tab" >
+		<img src="https://mcr.unibas.ch/dolueg2/projects/basel/plots/3year/basel_0_a_atemp_diff_iso_3year.svg" class="overview_svg" alt ="" />
+	</a>
+	<h3> Diurnal versus annual temperature difference from Basel Klingelbergstrasse (urban surroundings) to Basel Lange Erlen (rural surroundings).
+	Click to save, drag to new/other tab to enable zooming capabilities.</h3>
+</div>
+<br>

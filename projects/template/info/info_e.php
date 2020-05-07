@@ -1,0 +1,19 @@
+<div class="infotext">
+    <p>
+        To measure soil temperature, several temperature probes are buried at different depths. This allows to implement soil data for research questions concerning evaporation, fog, snow cover and the like. While soil temperature at the surface reacts quickly, lower soil layers react with delay and only until a certain depth is reached. The main reason is the amount of energy that first has to warm layers above since most of the time thermal conductivity is the main transport mechanism, as air pores are small. This flux of energy, also dubbed the soil energy heat flux, is usually measured by heat flux plates (HFP). These two small plates with material filled inbetween that has similar conductivity as the surrounding soil. By measuring the temperature of the two plates and the known conductivity one can thus calculate the soil heat flux in W m<sup>-2</sup> (which is the same unit as all other energy fluxes).
+
+    </p>
+    <p>
+        Turbulent fluxes transport energy away or to the surface, depending on their sign. Negative fluxes indicate an energy loss for the surface whereas positive signs show a gain for the surface. If air is heated at the surface, its density is reduced and it will therefore ascend. Over the course of the day, this process is ongoing and the surface heats the atmosphere above it. The layer or part of the atmosphere that is heated is usually called the planetary boundary layer. On hot days, this exchange can be even seen by eye as a flimmer on tar roads or the like. When temperature is transported, this transporting flux is also called sensible heat flux. To keep mass constant, some exchange mechanism has to take place, which brings comparably cold air to the surface. The combination of both is akin to an elevator and is called an eddy, hence the name eddy covariance for the associated metholodogy.
+    </p>
+    <p>
+        Aside from heat, water vapour is another massive influence that the surface has on the atmosphere: Plants, water bodies and animals to some extent that need to disperse excess heat (or in the case of plants suck up water from the soil) often do so by evaporation or transpiration. Both together are of course the evapotranspiration. The exchange of water in the gaseous form is also called the latent energy heat flux. As with the sensible heat flux, the transport can happen in both direction: If it is directed towards the surface we associate it with dew fall on plants, or if it is of the opposite direction and in excess of the carrying capacity of the air for water vapour with fog in the morning. Such fog is usually radiation fog and a combination of turbulent exchange (but less so during the night and morning) and the cooling of the surface (and air layers close to the surface indirectly by this) during the night. Fluxes shown here are usually not corrected or if so only by the simplest algorithms on the dat alogger. Thus, the figures are to be enjoyed with some scepsis.
+    </p>
+    <p>
+        Other turbulent fluxes such as the one of CO<sub>2</sub>, one of the most important green house gases, can laos be measured by the same instruments that allow capture of sensible and latent heat flux. Especially in cities, as these represent a major source, the exchange of CO<sub>2</sub> is of interest. The source of emissions may be from traffic, heating, industry or simply by human metabolism itself. Conversely, vegetation may take up some of the emitted carbon again by the photosynthesis. This process requires energy from the sun, and many plants (C3) thus only convert CO<sub>2</sub> to O<sub>2</sub> during the day.
+    </p>
+    <p>
+        The balance of CO<sub>2</sub> in a city is thus a complex interaction between all actors on the surface and the exchange and transport governed by meteorological processes.
+
+    </p>
+</div>
