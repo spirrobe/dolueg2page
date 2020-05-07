@@ -17,15 +17,16 @@ Other required adjustmens are these two types of file:
 - "proj_list.php" in "projects" (contains all your campaigns/regional settings that you would like to see/display) and the tabs on top in the menu, e.g.
   - Tabs in them menu are $availablectabs = ['overview'=>'Overview', 'control'=>'Control', ];
   - Campaigns are $availablecampaigns= ['template'=>'Test', ];
- - "stat_list.php" in the campaigns relevant folder, i.e. "projects/template/stat_list.php" contains the names you want to associate with the stations number, e.g.
-  - $stations = ['1'=>'Teststation', ];
+  - Take note that you can have projects for yourself by testing in folders that then do not appear in the menu can be entered in the URL (replacing overview with the folder name for example) and then checked for suitability
+- "stat_list.php" in the campaigns relevant folder, i.e. "projects/template/stat_list.php" contains the names you want to associate with the stations number, e.g.
+- $stations = ['1'=>'Teststation', ];
 
 ## Setting up overview 
 Overview relies on directly editable text files that are found in projects/overview. The default files contained within are
 
 1. current values as table with two figures
-2. a forecast of today for our mainlocation (basel) that was setup via https://www.meteoblue.com/en/user/account/index (free of charge but requires an accounts). Adjust the URL of the iframe in the file to make it your own
-3. a forecast for the next five days (again basel, same way as above). Adjust the URL of the iframe in the file to make it your own
+2. a forecast of today for our mainlocation (basel) that was setup via https://www.meteoblue.com/en/user/account/index  via the so-called MeteoTV (free of charge but requires an accounts). Adjust the URL of the iframe in the file to make it your own
+3. a forecast for the next five days (again basel, same way as abovein 2.). Adjust the URL of the iframe in the file to make it your own
 4. the windfield forecast centered on based created via https://embed.windy.com/. Adjust the URL in the file according to your needs
 5. About us and the lab, including contact info, explanation of navigation and purpose of the page. Change as needed
 
