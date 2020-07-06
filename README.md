@@ -48,7 +48,7 @@ These tables allow for easier debugging of problems with the dataflow. Examples:
 - Coumns 4/5 are bad -> A part of the station/device is broken -> Look for columns 7 which device it might be and fix it
 - Columns 6/7 are bad -> Device is broken and delivers bad or out of range values/Something changed and the calibration does no longer work (datafile moved, output on logger, ..) -> Look at column 7 to find out which timeseries are affected and investigate the problem
 
-For the creation of the tables refer to the [Figure Readme](https://github.com/spirrobe/dolueg2_figures/README.md)
+For the creation of the tables refer to the [Figure Repository](https://github.com/spirrobe/dolueg2_figures)
 
  
 
