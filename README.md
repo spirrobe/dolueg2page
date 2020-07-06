@@ -1,5 +1,5 @@
 # Homepage dolueg2
-Set up your website to look like [dolueg2](https://mcr.unibas.ch/dolueg2)
+Set up your website to look like [dolueg2](https://mcr.unibas.ch/dolueg2/index.php?project=overview) of the Atmospheric Sciences at the University of Basel.
 
 To create/find figures to fill dolueg, refer to the figure repository [dolueg2figures](https://github.com/spirrobe/dolueg2figures)
 
