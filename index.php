@@ -79,19 +79,19 @@
     <?php
          echo '<div class="btncontainer">'."\n";
          if (!in_array($project, $specialprojects)) {
-             echo '<button id="0daybutton" class="btnselector" onfocus="plots('."'0day'".')">Day</button>'."\n";
-             echo '<button id="1weekbutton" class="btnselector" onfocus="plots('."'1week'".')" >Week</button>'."\n";
-             echo '<button id="2monthbutton" class="btnselector" onfocus="plots('."'2month'".')">Month</button>'."\n";
-             echo '<button id="3yearbutton" class="btnselector" onfocus="plots('."'3year'".')">Year</button>'."\n";
-             echo '<button id="infobutton" class="btnselector" onfocus="plots('."'info'".')">Information</button>'."\n";
-             echo '<button id="meteogram_mb" class="btnselector" onfocus="plots('."'meteogram'".')">Meteogram</button>'."\n";
+             echo '<button id="0daybutton" class="btnselector" onclick="plots('."'0day'".')" onfocus="plots('."'0day'".')">Day</button>'."\n";
+             echo '<button id="1weekbutton" class="btnselector" onclick="plots('."'1week'".')" onfocus="plots('."'1week'".')">Week</button>'."\n";
+             echo '<button id="2monthbutton" class="btnselector" onclick="plots('."'2month'".')" onfocus="plots('."'2month'".')">Month</button>'."\n";
+             echo '<button id="3yearbutton" class="btnselector" onclick="plots('."'3year'".')" onfocus="plots('."'3year'".')">Year</button>'."\n";
+             echo '<button id="infobutton" class="btnselector" onclick="plots('."'info'".')" onfocus="plots('."'info'".')">Information</button>'."\n";
+             echo '<button id="meteogram_mb" class="btnselector" onclick="plots('."'meteogram'".')" onfocus="plots('."'meteogram'".')">Meteogram</button>'."\n";
         } else {
             if ($project == 'overview') {
-                echo '<button  class="btnselector" onfocus="show('."'0'".')" autofocus>Current Data</button>'."\n";
-                echo '<button class="btnselector forecastbutton" onfocus="show('."'1'".')" >Today forecast</button>'."\n";
-                echo '<button class="btnselector forecastbutton" onfocus="show('."'2'".')" >Five day forecast</button>'."\n";
-                echo '<button class="btnselector" onfocus="show('."'3'".')" >Windfield</button>'."\n";
-                echo '<button class="btnselector" onfocus="show('."'4'".')" >About</button>'."\n";
+                echo '<button  class="btnselector" onclick="show('."'0'".')" onfocus="show('."'0'".')" autofocus>Current Data</button>'."\n";
+                echo '<button class="btnselector forecastbutton" onclick="show('."'1'".')" onfocus="show('."'1'".')">Today forecast</button>'."\n";
+                echo '<button class="btnselector forecastbutton" onclick="show('."'2'".')" onfocus="show('."'2'".')">Five day forecast</button>'."\n";
+                echo '<button class="btnselector" onclick="show('."'3'".')" onfocus="show('."'3'".')" >Windfield</button>'."\n";
+                echo '<button class="btnselector" onclick="show('."'4'".')" onfocus="show('."'4'".')" >About</button>'."\n";
             }
         }
         echo '</div>'."\n";
