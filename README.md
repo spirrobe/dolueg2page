@@ -8,9 +8,11 @@ The website here is mostly skeleton, i.e. it contains no figures but the require
 
 ## Layout & Visual identity
 We recommend to adjust the CSS files in "layout" to create your own visual identity and the file in "logo" to use your own logo. After a change in the CSS, the file should be minimised with the python script in "minifycss", or if you wish you can change the line in in index.php that reads 
+from 
 <link rel="stylesheet" type="text/css" href="layout/dolueg_min.css">
 to
 <link rel="stylesheet" type="text/css" href="layout/dolueg.css">
+instead, which will take the CSS style file that is easier to read but slightly bigger (due to whitespace) and thus may/can lead to higher load.
 
 ## Setting up the automatic figure display
 Other required adjustmens are these two types of file:
