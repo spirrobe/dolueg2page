@@ -23,7 +23,17 @@ Other required adjustmens are these two types of file:
 - "stat_list.php" in the campaigns relevant folder, i.e. "projects/template/stat_list.php" contains the names you want to associate with the stations number, e.g.
 - $stations = ['1'=>'Teststation', ];
 
-## Setting up overview 
+
+# Dependencies
+- Running webserver with
+  - PHP
+  - JavaScript enabled in browser
+  - access to the file system to copy/move figures
+
+# Dedicated Pages (Extension/Modules)
+Items in this category likely require more changes and adjustments to your specific solution
+
+## Setting up overview of current measurement values
 Overview relies on directly editable text files that are found in projects/overview. The default files contained within are
 
 1. current values as table with two figures
@@ -32,8 +42,11 @@ Overview relies on directly editable text files that are found in projects/overv
 4. the windfield forecast centered on based created via https://embed.windy.com/. Adjust the URL in the file according to your needs
 5. About us and the lab, including contact info, explanation of navigation and purpose of the page. Change as needed
 
-## Setting up the control
-The control of the dataflow relies on a python script creating the needed table from a calibration file. See the relevant article in BAMS for more details. The webserver includes any php file in the "projects/control" folder. The format within each file is very simple and contains a table with one header (creation time of file), seven columns and as many rows as calibration files have been set to be combined in one control file. The columns are from left to right:
+Except for the first table with measurement values, no scheduled task have to be implemented.
+For the table see the specific repository at <!--[overview](https://github.com/spirrobe/dolueg2overview)-->
+
+## Setting up the control of data flow
+The control of the dataflow relies on a python script creating the needed table from a calibration file. As these are specific to our solution for data processing/storage, change is likely needed. The webserver includes any php file in the "projects/control" folder. The format within each file is very simple and contains a table with one header (creation time of file), seven columns and as many rows as calibration files have been set to be combined in one control file. The columns are from left to right:
 
 1. Name of station
 2. The last time the datafile has been modified
@@ -50,15 +63,7 @@ These tables allow for easier debugging of problems with the dataflow. Examples:
 - Coumns 4/5 are bad -> A part of the station/device is broken -> Look for columns 7 which device it might be and fix it
 - Columns 6/7 are bad -> Device is broken and delivers bad or out of range values/Something changed and the calibration does no longer work (datafile moved, output on logger, ..) -> Look at column 7 to find out which timeseries are affected and investigate the problem
 
-For the creation of the tables refer to the [Figure Repository](https://github.com/spirrobe/dolueg2figures)
-
- 
-
-# Dependencies
-- Running webserver with
-  - PHP
-  - JavaScript enabled in browser
-  - access to the file system to copy/move figures
+For the creation of the tables refer to the the specific repository <!--[Figure Repository](https://github.com/spirrobe/dolueg2control)-->
 
 # Tracking of users and their behaviour
 We do not track users in any way. If you have need for tracking you will have to add the relevant changes yourself 
