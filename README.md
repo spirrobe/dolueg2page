@@ -63,11 +63,11 @@ These tables allow for easier debugging of problems with the dataflow. Examples:
 - Coumns 4/5 are bad -> A part of the station/device is broken -> Look for columns 7 which device it might be and fix it
 - Columns 6/7 are bad -> Device is broken and delivers bad or out of range values/Something changed and the calibration does no longer work (datafile moved, output on logger, ..) -> Look at column 7 to find out which timeseries are affected and investigate the problem
 
-For the creation of the tables refer to the the specific repository <!--[Figure Repository](https://github.com/spirrobe/dolueg2control)-->
+For the creation of the tables refer to [the specific control repository ](https://github.com/spirrobe/dolueg2control)
 
 ## Setting up a dedicated webcam page
 The addition of a webcam including timelapse is fairly straightforward and just requires a webcam that pushes pictures to the webserver/a computer that produces a timelapse video of the figures (optional). 
-In our case, we employ a Raspberry PI installed in a halogen lamp case (usually used on construction sites). Details for the installation/scripts of it can be found at <!--[Figure Repository](https://github.com/spirrobe/meteocam)-->
+In our case, we employ a Raspberry PI installed in a halogen lamp case (usually used on construction sites). Details for the installation/scripts of it can be found at [the Webcam Repository](https://github.com/spirrobe/dolueg2webcam)
 
 # Tracking of users and their behaviour
 We do not track users in any way. If you have need for tracking you will have to add the relevant changes yourself 
