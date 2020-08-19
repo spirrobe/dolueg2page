@@ -43,7 +43,7 @@
  <html>
 
  <head>
-  <title>Dolueg2 - measurement network of MCR Lab University of Basel, testversion!</title>
+  <title>YOUR MEASUREMENT NETWORK!</title>
   <meta http-equiv="cache-control" content="no-cache">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +56,7 @@
  </head>
 
  <body>
-  <div class="menu"> <a href="https://duw.unibas.ch/de/meteorologiemcrlab/" class="back" target=""><h2 class="title" title="Meteorology Climatology and Remote Sensing Lab, University of Basel">MCR@University of Basel</h2></a></div>
+  <div class="menu"> <a href="ENTERYOURMAINPAGE" class="back" target=""><h2 class="title" title="YOUR MAIN PAGE">Your main page</h2></a></div>
 
   <div class="submenu">
    <?php include "./projects/proj_list.php";?>
@@ -87,7 +87,7 @@
              echo '<button id="meteogram_mb" class="btnselector" onclick="plots('."'meteogram'".')" onfocus="plots('."'meteogram'".')">Meteogram</button>'."\n";
         } else {
             if ($project == 'overview') {
-                echo '<button  class="btnselector" onclick="show('."'0'".')" onfocus="show('."'0'".')" autofocus>Current Data</button>'."\n";
+                echo '<button class="btnselector" onclick="show('."'0'".')" onfocus="show('."'0'".')">Current Data</button>'."\n";
                 echo '<button class="btnselector forecastbutton" onclick="show('."'1'".')" onfocus="show('."'1'".')">Today forecast</button>'."\n";
                 echo '<button class="btnselector forecastbutton" onclick="show('."'2'".')" onfocus="show('."'2'".')">Five day forecast</button>'."\n";
                 echo '<button class="btnselector" onclick="show('."'3'".')" onfocus="show('."'3'".')" >Windfield</button>'."\n";
@@ -100,9 +100,9 @@
     ?>
 
      </div>
-     <a href="https://meteo.duw.unibas.ch/index.php?id=51946" style="padding:0;margin:0;">
+     <a href="ADJUSTTOALINK" style="padding:0;margin:0;">
       <div id="logo_foot">
-        <object data="./logos/logo_footer_unibas_mcr_combined.svg" id="logo" class="footer" alt="" type="image/svg+xml"></object>
+        <object data="./logos/logo_footer.svg" id="logo" class="footer" alt="" type="image/svg+xml"></object>
       </div>
      </a>
   </div>
@@ -249,7 +249,13 @@
      }
 
      	$(document).ready(function () {
-     	plots('1week');
+        <?php
+        if ($project == 'overview') {
+            echo "show('0');";
+        } else {
+            echo "plots('1week');";
+        }
+        ?>
      	});
     </script>
 

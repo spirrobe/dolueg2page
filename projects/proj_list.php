@@ -6,7 +6,7 @@
 
     foreach ($availablectabs as $tabcode => $tabname) {
 
-        $linkstr = '<a href="index.php?project='.$tabcode.'&var=0" class="';
+        $linkstr = '<a href="index.php?project='.$tabcode.'" class="';
         if ($selectedvar == $project) {
             $linkstr = $linkstr . 'menuon';
         } else {
