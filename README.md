@@ -69,5 +69,5 @@ For the creation of the tables refer to [the specific control repository ](https
 The addition of a webcam including timelapse is fairly straightforward and just requires a webcam that pushes pictures to the webserver/a computer that produces a timelapse video of the figures (optional). 
 In our case, we employ a Raspberry PI installed in a halogen lamp case (usually used on construction sites). Details for the installation/scripts of it can be found at [the Webcam Repository](https://github.com/spirrobe/dolueg2webcam)
 
-# Tracking of users and their behaviour
-We do not track users in any way. If you have need for tracking you will have to add the relevant changes yourself 
+<!--# Tracking of users and their behaviour-->
+<!--We do not track users in any way. If you have need for tracking you will have to add the relevant changes yourself -->
